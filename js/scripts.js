@@ -23,5 +23,9 @@ $(document).ready(function() {
     $("ul#stop").prepend("<li>Oh all right. Come snuggle with me.</li>");
   });
 
+  $("button#colorchange").click(function() {
+    $("body").toggleClass("black-background");
+
+  });
 
 });

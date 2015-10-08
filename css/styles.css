@@ -18,3 +18,8 @@ h2 {
 .italic {
   font-style: italic;
 }
+
+.black-background{
+  color: white;
+  background-color: black;
+}
